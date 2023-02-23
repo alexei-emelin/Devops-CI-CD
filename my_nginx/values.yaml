@@ -1,0 +1,8 @@
+replicaCount: 1
+
+image:
+  repository: alexeiemelin/nginx
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "0.0.3"
+
+appPort: 80
